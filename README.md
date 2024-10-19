@@ -1,7 +1,7 @@
             ** Application 1 : Rule Engine with AST **
             
  
-**Basic Commands for Environment Setup: **
+__Basic Commands for Environment Setup:__
 Set up a virtual environment:    
 →python -m venv rule_engine_env 
 Activate the environment: 
@@ -11,7 +11,7 @@ Windows:
      →pip install Flask SQLAlchemy 
      →pip install flask 
  
-**Project Structure **
+__Project Structure__
  
 rule_engine_app/ 
 │ 
@@ -23,7 +23,7 @@ rule_engine_app/
 ├── requirements.txt        # Package dependencies 
 └── db.sqlite3              # SQLite Database file (auto-generated) CODES 
  
-**How to Run **
+__How to Run__
 In your Teriminal  use the cmd   python app.py 
 Note:Make sure that you should activate your virtual environment(if used(.\rule_engine_env\Scripts\activate)) and in the correct project directory 
  ![image](https://github.com/user-attachments/assets/7c226669-710a-49b0-90ec-5ca2783172db)
@@ -39,7 +39,7 @@ Note : 1.While you are using
 The method is not allowed for the requested URL. 
 •	Because we need to use them directly through the postman 
  
-**Postman API**
+__Postman API__
 For the output you need to use postman tool 
 1.	POST /create_rule: 
 •	URL: http://127.0.0.1:5000/create_rule 
@@ -96,10 +96,10 @@ In the browser
  
  
  
-                                      ** Application 2  **
- **Real-Time Data Processing System for Weather Monitoring with Rollups and  Aggregates **
+                                      __Application 2__
+ __Real-Time Data Processing System for Weather Monitoring with Rollups and  Aggregates__
  
-**1.Creating Project Directory:    **       
+__1.Creating Project Directory:__      
 Windows: 
             →mkdir weather-app 
            →cd weather-app        
@@ -125,7 +125,7 @@ Linux/Mac:
              Linux/Mac: 
            →touch src/index.js src/weather.js .env 
  
-**File Structure **
+__File Structure__
        weather-app/ 
 ├── node_modules/ 
 ├── src/ 
@@ -139,7 +139,7 @@ Linux/Mac:
 └── README.md             # Project documentation 
  
 
-**How To Run **
+__How To Run__
 1.Checking for a specified place/location 
       → cd src 
       →node testWeather.js 
@@ -161,7 +161,7 @@ Linux/Mac:
 ![image](https://github.com/user-attachments/assets/df579337-5466-495c-8be0-4af00d213177)
 
              
-**Checking in the Postman **
+__Checking in the Postman__
 Step 1: Download and Install Postman 
 If you don’t already have Postman, you can download it from here. 
 Step 2: Open Postman 
@@ -177,13 +177,15 @@ https://api.openweathermap.org/data/2.5/weather?q=Mumbai,in&appid=your_api_key
 ![image](https://github.com/user-attachments/assets/3572223e-dc09-4691-aa86-577fa082771e)
 
  
-**Common Errors and Troubleshooting **
+__Common Errors and Troubleshooting__
 Invalid API Key (401 Unauthorized) 
 If you get a 401 Unauthorized error, double-check your API key in the URL. Ensure there are no extra spaces, and verify that the key is activated. 
  
  
-**Invalid Protocol Error **
+__Invalid Protocol Error__
 Ensure that you’ve correctly used GET as the request method and formatted the URL properly (without GET in the URL).    
  
  
- 
+
+__You Can also refer to the below pdf if needed__
+https://drive.google.com/file/d/1eTku_Qfcqau00VYqZPfqFDr2G8GlOsV4/view?usp=sharing
